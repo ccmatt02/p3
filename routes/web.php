@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'LoremControllers@index')->name('lorem.index');
+
+Route::post('/lorem', 'LoremControllers@generate')->name('lorem');
+
+Route::post('/user', 'LoremControllers@user')->name('user');
