@@ -21,6 +21,6 @@
 
 @yield('mainContent')
 
- <footer> <BR><BR> SAMPLE FOOTER TEXT </footer>
+ <footer> <BR><BR> @yield('footer') </footer>
 </body>
 </html>
