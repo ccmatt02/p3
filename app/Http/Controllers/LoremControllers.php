@@ -25,7 +25,7 @@ class LoremControllers extends Controller {
 
   public function user(Reuest $request) {
 
-    this->validate($request, [
+    $this->validate($request, [
       'userNum' => 'required|min:1|max:20|numeric',
     ]);
 
