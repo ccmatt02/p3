@@ -32,7 +32,7 @@ Lorem Ipsum and Random User Generator
 
  <div class="pure-u-2-5" id="formRight">
 
-   <form class="pure-form" action="/user" method ="POST">
+   <form class="pure-form" action="user" method ="POST">
      {{ csrf_field() }}
      <fieldset>
        <legend><h4>Generate Random Users</h4></legend>
