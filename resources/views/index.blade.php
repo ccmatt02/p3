@@ -65,9 +65,9 @@ Lorem Ipsum and Random User Generator
   <div class="pure-u-1-5">
     @if(count($errors) > 0)
     <ul>
-        @foreach ($errors->all() as $error)
-            <li>{{ $error }}</li>
-        @endforeach
+      @foreach ($errors->all() as $error)
+        <li>{{ $error }}</li>
+      @endforeach
     </ul>
     @endif
   </div>

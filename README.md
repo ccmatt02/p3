@@ -11,7 +11,7 @@ future application development
 	<TODO>
 
 ## Details for teaching team
-	None for this project
+	I utilized the Larvel-lipsum as my package for this project, link below.
 
 ## Outside sources
 * Larvel-lipsum: <https://github.com/magyarjeti/laravel-lipsum>
