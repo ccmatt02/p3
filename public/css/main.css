@@ -23,6 +23,10 @@
 	margin-left: 20px;
 }
 
+.table-heading {
+  border: 2px #151B54;
+}
+
 html {
     position: relative;
     min-height: 100%;

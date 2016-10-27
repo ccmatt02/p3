@@ -14,7 +14,7 @@ future application development
 	None for this project
 
 ## Outside sources
-* Larvel-lipsum <https://github.com/magyarjeti/laravel-lipsum>
+* Larvel-lipsum: <https://github.com/magyarjeti/laravel-lipsum>
 * PureCSS: <http://purecss.io/>
 * Laravel: <https://laravel.com/>
-	
+* Mockaroo: <https://www.mockaroo.com/>
