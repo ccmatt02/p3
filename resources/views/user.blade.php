@@ -19,9 +19,8 @@ Random User Generator
 @section('mainContent')
 
 
-<center>
-  <table>
-      <tr bgcolor=grey style="font-size:20px">
+  <table class="main-table">
+      <tr>
         <th>&nbsp; First name &nbsp;</th>
         <th>&nbsp; Last name &nbsp;</th>
         <?php if($birthday) echo "<th>&nbsp; Birthday &nbsp;</th>\n"; ?>
@@ -31,7 +30,7 @@ Random User Generator
     <?php
     foreach($keys as $item)
     {
-      echo "<tr align=left>";
+      echo "<tr>";
       echo "<th>&nbsp;".$data[$item][1]."&nbsp;</th>\n";
       echo "<th>&nbsp;".$data[$item][2]."&nbsp;</th>\n";
       if($birthday) echo "<th>&nbsp;".$data[$item][4]."&nbsp;</th>\n";
@@ -41,5 +40,4 @@ Random User Generator
     }
     ?>
   </table>
-</center>
 @stop

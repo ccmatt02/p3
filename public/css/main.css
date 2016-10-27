@@ -19,6 +19,18 @@
     text-shadow: 0 1px 1px black;
 }
 
+.main-table {
+  text-align:center;
+  margin:auto;
+  text-align:left;
+}
+
+.main-table tr:nth-child(1){
+  background-color: grey;
+  font-weight: bolder;
+}
+
+
 a {
   text-decoration: none;
 }
