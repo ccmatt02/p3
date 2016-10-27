@@ -15,14 +15,14 @@ Lorem Ipsum and Random User Generator
          How many paragraphs?
        </div>
        <div class='pure-u-4-24'>
-         <input name="parNum" type="text" placeholder="(1-20)">
+         <input name="paragraphNumber" type="text" placeholder="(1-20)">
        </div>
        <br>
        <div class='pure-u-8-24'>
          How many words per paragraph?
        </div>
        <div class='pure-u-4-24'>
-         <input name="wordNum" type="text" placeholder="(1-500)">
+         <input name="wordNumber" type="text" placeholder="(1-500)">
        </div>
        <br><br>
        <button type="submit" class="pure-button pure-button-primary">Generate</button>
@@ -40,7 +40,7 @@ Lorem Ipsum and Random User Generator
          How many users?
        </div>
        <div class='pure-u-4-24'>
-         <input name="userNum" type="text" placeholder="(1-20)">
+         <input name="userNumber" type="text" placeholder="(1-20)">
        </div>
        <br><br>
        <div class='pure-u-6-24'>
@@ -62,5 +62,14 @@ Lorem Ipsum and Random User Generator
      </fieldset>
   </form>
  </div>
+  <div class="pure-u-1-5">
+    @if(count($errors) > 0)
+    <ul>
+        @foreach ($errors->all() as $error)
+            <li>{{ $error }}</li>
+        @endforeach
+    </ul>
+    @endif
+  </div>
 </div>
 @stop
