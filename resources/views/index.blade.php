@@ -40,7 +40,7 @@ Lorem Ipsum and Random User Generator
          <label name="userNum">How many users?</label>
        </div>
        <div class='pure-u-4-24'>
-         <input name="userNum" type="textbox">
+         <input name="userNum" type="textbox" placeholder="(1-20)">
        </div>
        <br><br>
        <div class='pure-u-6-24'>

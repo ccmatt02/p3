@@ -11,14 +11,15 @@
 
 </head>
 <body>
-  <div class="banner">
-      <h1 class="banner-head">
-          Lorem Ipsum<BR>
-            and<BR>
-        Random User Generator
-      </h1>
-  </div>
-
+	<a href='/'>
+	  <div class="banner">
+	      <h1 class="banner-head">
+	          Lorem Ipsum<BR>
+	            and<BR>
+	        Random User Generator
+	      </h1>
+	  </div>
+	</a>
 @yield('mainContent')
 
  <footer> <BR><BR> @yield('footer') </footer>

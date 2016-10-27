@@ -1,6 +1,6 @@
 
 .banner {
-    background: grey;
+    background: #394354;
     text-align: center;
     background-size: cover;
     height: 150px;
@@ -14,17 +14,17 @@
     vertical-align: middle;
     margin-bottom: 0;
     font-size: 2em;
-    color: #151B54;
+    color: #ccd5e5;
     font-weight: 500;
     text-shadow: 0 1px 1px black;
 }
 
-#formLeft {
-	margin-left: 20px;
+a {
+  text-decoration: none;
 }
 
-.table-heading {
-  border: 2px #151B54;
+#formLeft {
+	margin-left: 20px;
 }
 
 html {
@@ -44,6 +44,6 @@ footer {
     text-align: center;;
     display: table-cell;
     vertical-align: middle;
-    background-color: grey;
+    background-color: #394354;
     font-weight: 500;
 }
