@@ -8,7 +8,7 @@ A tool to generate blocks of lorem ipsum text or random users which may be used 
 future application development
 
 ## Demo
-	<TODO>
+	http://screencast.com/t/qB2buGqccde
 
 ## Details for teaching team
 	I utilized the Larvel-lipsum as my package for this project, link below.

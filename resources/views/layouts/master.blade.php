@@ -20,7 +20,8 @@
 	      </h1>
 	  </div>
 	</a>
-@yield('mainContent')
+
+	@yield('mainContent')
 
  <footer> <BR><BR> @yield('footer') </footer>
 </body>
