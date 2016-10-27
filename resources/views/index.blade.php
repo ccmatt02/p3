@@ -10,19 +10,19 @@ Lorem Ipsum and Random User Generator
    <form class="pure-form" action="lorem" method="POST">
      {{ csrf_field() }}
      <fieldset>
-       <legend><h4>Generate Lorem Ipsum Text</h4></legend>
+       <legend>Generate Lorem Ipsum Text</legend>
        <div class='pure-u-8-24'>
-         <lable for="parNum">How many paragraphs?</lable>
+         How many paragraphs?
        </div>
        <div class='pure-u-4-24'>
-         <input name="parNum" type="textbox" placeholder="(1-20)">
+         <input name="parNum" type="text" placeholder="(1-20)">
        </div>
        <br>
        <div class='pure-u-8-24'>
-         <label for="wordNum">How many words per paragraph?</label>
+         How many words per paragraph?
        </div>
        <div class='pure-u-4-24'>
-         <input name="wordNum" type="textbox" placeholder="(1-500)">
+         <input name="wordNum" type="text" placeholder="(1-500)">
        </div>
        <br><br>
        <button type="submit" class="pure-button pure-button-primary">Generate</button>
@@ -35,26 +35,26 @@ Lorem Ipsum and Random User Generator
    <form class="pure-form" action="user" method ="POST">
      {{ csrf_field() }}
      <fieldset>
-       <legend><h4>Generate Random Users</h4></legend>
+       <legend>Generate Random Users</legend>
        <div class='pure-u-6-24'>
-         <label name="userNum">How many users?</label>
+         How many users?
        </div>
        <div class='pure-u-4-24'>
-         <input name="userNum" type="textbox" placeholder="(1-20)">
+         <input name="userNum" type="text" placeholder="(1-20)">
        </div>
        <br><br>
        <div class='pure-u-6-24'>
-         <label name="birthday">Include birthdays?</label>
+         Include birthdays?
        </div>
        <input name="birthday" type="checkbox">
        <br>
        <div class='pure-u-6-24'>
-         <label name="idnum">Include ID numbers?</label>
+         Include ID numbers?
        </div>
        <input name="idnum" type="checkbox">
        <br>
        <div class='pure-u-6-24'>
-         <label name="address">Include addresses?</label>
+         Include addresses?
        </div>
        <input name="address" type="checkbox">
        <br><br>

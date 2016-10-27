@@ -23,6 +23,10 @@ a {
   text-decoration: none;
 }
 
+fieldset legend {
+  font-weight: bold;
+}
+
 #formLeft {
 	margin-left: 20px;
 }
